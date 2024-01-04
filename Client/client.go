@@ -9,7 +9,10 @@ import (
 )
 
 func main() {
+	fmt.Println("Simple Chat Client")
+
 	// ป้อน username และ password
+	fmt.Print("Connecting to server...\n")
 	fmt.Print("Enter username: ")
 	username, _ := bufio.NewReader(os.Stdin).ReadString('\n')
 
